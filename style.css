@@ -17,7 +17,7 @@ body, p {
   max-width: 960px;
 }
 
-.wrapper, .main-intro, .twitter, footer, intro2 {
+.wrapper, .main-intro, .twitter, footer, .intro2 {
   padding: 0 1em;
 }
 
@@ -26,6 +26,7 @@ body, p {
   font-size: 1.5em;
   color: slategray;
 }
+
 .intro2 h3 {
    font-weight: 300;
    font-size: 1.5em;
