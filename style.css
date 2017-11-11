@@ -26,6 +26,11 @@ body, p {
   font-size: 1.5em;
   color: slategray;
 }
+.intro2 h3 {
+    font-weight: 300;
+  font-size: 1.5em;
+  color: slategray;
+}
 
 .projects {
   display: flex;
