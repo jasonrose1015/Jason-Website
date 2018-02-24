@@ -37,12 +37,7 @@
                     padding: 1%;
                 }
                 #widgetmain {
-                    margin: 1% auto 1% auto;
-                }
-                h3 {
-                    margin-top: -3%;
-                    margin-bottom: -2%;
-                    color: #ffffff;
+                    margin: 0% auto 1% auto;
                 }
                 #news {
                     width: 98%;
@@ -50,51 +45,109 @@
                     margin-bottom: 1%;
                     margin-left: 1%;
                     background-color: #ff0000af;
+                    font-family: "Wellfleet";
+                    color: #ffffff;
                     text-transform: uppercase;
                     letter-spacing: 1px;
                 }
-                .h500p, .meltdown, .meltspec, .meltdownfix, .wpa, .mac {
-                    height: 90%;
-                    width: 37%;
-                    margin-top: 2.5%;
-                    margin-left: 2.5%;
-                    margin-right: 2.5%;
-                    float: left;
-                }
-                #h500ptext, #meltdowntext, #meltspectext, #meltfixtext, #wpatext, #mactext {
-                    text-align: justify;
-                    margin-right: 2.5%;
+                #security {
+                    font-family: "Wellfleet";
                     color: #ffffff;
-                    margin-left: 2.5%;
-                    
+                    background-color: #ff0000af;
+                    width: 17%;
+                    border-bottom-right-radius: 8px;
+                    border-top-left-radius: 8px;
+                    height: 2em;
+                    margin-left: 1%;
                 }
-                .column1, .column2, .column3 {
-                    width: 48%;
+                #hardware, #software { 
+                    font-family: "Wellfleet";
+                    color: #ffffff;
+                    background-color: #ff0000af;
+                    width: 17%;
+                    border-bottom-right-radius: 8px;
+                    border-top-left-radius: 8px;
+                    height: 2em;
+                    margin-left: 1%;
+                    clear: both;
+                }
+                .artimg1, .artimg4, .artimg5 {
+                    width: 200px;
+                    height: 225px;
+                    margin: 2% 2% 1% 1%;
+                    float: left;
+                    border-radius: 7px;
+                }
+                .artimg2, .artimg3 {
+                    height: 70%;
+                    width: 85%;
+                    border-radius: 5px;
+                    margin: 2% 1% 1% 1%;
+                }
+                .artimg6, .artimg7 {
+                    height: 65%;
+                    width: 80%;
+                    border-radius: 5px;
+                    margin: 2%;
+                }
+                .artimg8 {
+                    height: 95%;
+                    width: 20%;
+                    margin: -3% 2% 0% 1%;
+                    float: left;
+                }   
+                .artimg9 {
+                    height: 180px;
+                    width: 310px;
+                    margin: 2% 1% 0% 2%;
+                    float: left;
+                }
+                .artimg10 {
+                    height: 180px;
+                    width: 310px;
+                    margin: 0% 0% 1% 3%;
+                    float: left;
+                }          
+                #ac1text, #ac4text, #ac5text, #ac8text, #ac9text {
+                    text-align: left;
+                    color: #ffffff;
+                    margin: 2.5% 2.5% auto 3.5%; 
+                    font-size: 13pt;   
+                    line-height: 1.3em;               
+                }
+                .column1, .column4, .column5 {
+                    width: 70%;
                     float: left;
                     margin: 1%;
                     overflow: auto;
-                    
+                    border-radius: 5px;
                 }
-                .column4, .column5, .column6 {
-                    width: 48%;
+                .column2, .column3, .column6, .column7 {
+                    width: 26%;
                     float: left;
                     margin: 1%;
-                    overflow: auto;
-                    
+                    overflow: auto;                   
                 }
-                .column7, .column8, .column9 {
-                    width: 48%;
+                .column8, .column9 {
+                    width: 70%;
                     float: left;
                     margin: 1%;
-                    overflow: auto;
-                    
-                }
-                .column3 {
-                    margin-right: 0%;
+                    overflow: auto;                  
                 }
                 li {
                     display: inline;
                     padding: 0.5em;
+                }
+                #ach1, #ach2, #ach3, #ach5, #ach6, #ach7, #ach8, #ach9, #ach10 {
+                    margin-top: 1%;
+                    margin-bottom: 0%;
+                    font-family: "Wellfleet";
+                    font-size: 14pt;
+                    color: #ffffff;
+                    text-align: center;
+                }
+                .sidelink {
+                    text-align: center;
                 }
                 #nav, #footer {
                     background-color: #000000b2;
@@ -110,9 +163,22 @@
                     margin-bottom: 1em;
                     background-color: #0000004b;
                 }
-                .logo {
+                .side {
+                    height: 16em;
+                    margin-bottom: 1em;
+                }
+                .content {
                     height: 12em;
                     margin-bottom: 1em;
+                }
+                #top {
+                    float: right;
+                    width: 130px;
+                    margin: 2% 1%;
+                    font-family: "Wellfleet";
+                    background-color: rgba(10, 25, 236, 0.86);
+                    border-bottom-right-radius: 8px;
+                    border-top-left-radius: 8px;
                 }
                 a {
                     font-size: 13pt;
@@ -125,6 +191,9 @@
                 }
                 a:hover {
                     color: #6797ff;
+                }
+                .artimg2:hover, .artimg6:hover, .artimg7:hover, .artimg10:hover {
+                    transform: scale(1.03);
                 }
                 #nav li a.active {
                     text-decoration: underline;
@@ -174,10 +243,10 @@
             </style>
             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             <script>
-            (adsbygoogle = window.adsbygoogle || []).push({
-            google_ad_client: "ca-pub-9947585218169433",
-            enable_page_level_ads: true
-            });
+                 (adsbygoogle = window.adsbygoogle || []).push({
+                      google_ad_client: "ca-pub-7622922389169504",
+                      enable_page_level_ads: true
+                 });
             </script>
              <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
              <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
@@ -206,62 +275,86 @@
                 <div>
                 <p><h3 id="news">The Latest in Tech News!</h3></p>
                 </div>
+                <div id="security">
+                    <h2>Cybersecurity</h2>
+                </div>
                 <div class="article column1">
-                    <a href="https://meltdownattack.com"><img src="meltdown.jpg" class="meltdown" /></a>
-                    <h3><a href="https://meltdownattack.com">Meltdown and Spectre</a></h3>
-                    <p id="meltdowntext">Meltdown and Spectre take advantage of critical vulnerabilities in processors. These weaknesses have been found in both AMD and Intel processors. While the major concern will be the newer CPUs, older CPUs are also vulnerable. AMD has said that their processors will be patched via a software update. However, Intel will need a software and firmware update. It is said that in some cases, the patches will reduce performance by thirty percent. For more,<a href="https://meltdownattack.com"><u>click here.</u></a></p>
+                    <a href="https://meltdownattack.com"><img src="meltdown.jpg" class="artimg1" /></a>
+                    <h3 id="ach1"><a href="https://meltdownattack.com">Meltdown and Spectre</a></h3>
+                    <p id="ac1text">Meltdown and Spectre take advantage of critical vulnerabilities in processors. These weaknesses have been found in both AMD and Intel processors. While the major concern will be the newer CPUs, older CPUs are also vulnerable. AMD has said that their processors will be patched via a software update. However, Intel will need a software and firmware update. It is said that in some cases, the patches will reduce performance by thirty percent. For more,<a href="https://meltdownattack.com"><u>click here.</u></a>Also, <a href="http://www.tomshardware.com/news/cpu-security-flaw-everything-spectre-meltdown,36237.html">Tom's Hardware</a> has a great article with the latest on the two exploits.</p>
                 </div>
-                <div class="article column2">
-                    <a href="http://www.techradar.com/how-to/how-to-protect-against-the-meltdown-and-spectre-cpu-security-flaws#how-to-fix-meltdown-and-spectre-cpu-security-flaws-on-windows-pcs"><img src="meltdown-spectre-logos.png" class="meltdownfix" /></a>
-                    <h3><a href="http://www.techradar.com/how-to/how-to-protect-against-the-meltdown-and-spectre-cpu-security-flaws#how-to-fix-meltdown-and-spectre-cpu-security-flaws-on-windows-pcs">How to Properly Patch Meltdown and Spectre</a></h3>
-                    <p id="meltfixtext">While you've probably heard of the Meltdown and Spectre processor flaws, you may not know what you need to do to patch or fix your PC, Mac or mobile device. The process is different for each device. <a href="http://www.techradar.com/how-to/how-to-protect-against-the-meltdown-and-spectre-cpu-security-flaws#how-to-fix-meltdown-and-spectre-cpu-security-flaws-on-windows-pcs"><u>TechRadar</u></a>has a great article over how to correctly apply the update or patch including step by step guides. </p>
+                <div class="side column2">
+                    <h3 id="ach2"><a href="https://www.theverge.com/2018/2/8/16992626/apple-github-dmca-request-ios-iboot-source-code">Apple Source Code Leaked</h3>
+                    <a href="https://www.theverge.com/2018/2/8/16992626/apple-github-dmca-request-ios-iboot-source-code"><img src="apple-code.tiff" class="artimg2" /></a>
                 </div>
-                <div class="article column3">
-                    <a href="http://www.techradar.com/news/meltdown-and-spectre-fake-patch-warning-be-careful-what-you-download"><img src="meltdown-spectre.jpg" class="meltspec" /></a>
-                    <h3><a href="http://www.techradar.com/news/meltdown-and-spectre-fake-patch-warning-be-careful-what-you-download">Meltdown and Spectre Fake Patches Released</a></h3>
-                    <p id="meltspectext">As many users scramble to update their PCs and Macs to protect against the Meltdown and Spectre threats, that threat has increased as malicious software is being released to appear as a patch, but actually installs malware. The fake patch is delivered as an EXE (Intel-AMD-SecurityPatch.exe) and when it runs, it infects the PC with the malware and causes chaos on the user's machine. For more, check out<a href="http://www.techradar.com/news/meltdown-and-spectre-fake-patch-warning-be-careful-what-you-download"><u>TechRadar's</u></a>article.</p>
+                <div class="side column3">
+                    <h3 id="ach3">More Security Articles</h3>
+                    
+                        <p><a href="https://www.theverge.com/2018/2/16/17022162/facebook-two-factor-authentication-sms-notifications-security-bug" class="sidelink">Facebook's 2FA Bug</a></p>
+                        <p><a href="https://www.cnet.com/how-to/how-to-keep-scammers-from-stealing-your-phone-number/" class="sidelink">Stop Scammers From Stealing Your Phone Number</a></p>
+                        <p><a href="https://www.infosecurity-magazine.com/news/iot-devices-most-vulnerable-wifi/" class="sidelink">IoT Devices Most Vulnerable to Wi-Fi Attacks</a></p>
+                        <p><a href="https://www.securityweek.com/windows-analytics-helps-assess-risk-meltdown-spectre-attacks" class="sidelink">Risk of Meltdown and Spectre Attack</a></p>
                 </div>
                 <div class="article column4">
-                    <a href="http://www.coolermaster.com/case/mid-tower/mastercase-h500p/"><img src="mastercase-h500p.png" class="h500p" /></a>
-                    <h3><a href="http://www.coolermaster.com/case/mid-tower/mastercase-h500p/">The Cooler Master H500P</a></h3>
-                    <p id="h500ptext">It is a beautiful case. However, like many tech companies today, Cooler Master focused more on the aesthetics instead of the overall function or performance. After completing a build in it, I found that it is difficult to build in and does a very poor job of keeping the components cool. The entire PSU shroud must be removed to install a PSU. The massive 200mm fans are basically useless thanks to the front acrylic panel that restricts airflow. After my initial build, the lack of airflow led to overheating. I had to install addition fans in the front of the case to increase the amount of air being pulled in. Still, I must leave the front panel open to help improve the cooling. Other Tech Tubers also realized this and posted videos. At CES 2018, Cooler Master announced newer versions of this case to fix all of the issues. You can check it out<a href="https://www.youtube.com/watch?v=Ly8FuAuRPqg"><u>here.</u></a></p>
+                    <a href="http://www.techradar.com/how-to/how-to-protect-against-the-meltdown-and-spectre-cpu-security-flaws#how-to-fix-meltdown-and-spectre-cpu-security-flaws-on-windows-pcs"><img src="meltdown-spectre-logos.png" class="artimg4" /></a>
+                    <h3 id="ach2"><a href="http://www.techradar.com/how-to/how-to-protect-against-the-meltdown-and-spectre-cpu-security-flaws#how-to-fix-meltdown-and-spectre-cpu-security-flaws-on-windows-pcs">How to Properly Patch Meltdown and Spectre</a></h3>
+                    <p id="ac4text">While you've probably heard of the Meltdown and Spectre processor flaws, you may not know what you need to do to patch or fix your PC, Mac or mobile device. The process is different for each device.<a href="http://www.techradar.com/how-to/how-to-protect-against-the-meltdown-and-spectre-cpu-security-flaws#how-to-fix-meltdown-and-spectre-cpu-security-flaws-on-windows-pcs"><u>TechRadar</u></a>has a great article over how to correctly apply the update or patch including step by step guides for Android, iPhone, PC, Mac and Chromebooks. Each guide is being constantly updated as details emerge.</p>
+                    <p id="top"><a href="#header">BACK TO TOP</a></p>
+                </div>
+                <div id="hardware">
+                    <h2>Hardware</h2>
                 </div>
                 <div class="article column5">
-                   <a href="http://www.pcgamer.com/wpa3-is-bringing-stronger-encryption-and-security-to-wi-fi-routers-in-2018/">
-                    <img src="wpa3.png" class="wpa" /></a>
-                    <h3><a href="http://www.pcgamer.com/wpa3-is-bringing-stronger-encryption-and-security-to-wi-fi-routers-in-2018/">
-                        WPA3 Bringing Stronger Encryption to Wireless Routers in 2018</a></h3>
-                    <p id="wpatext">Now is not the best time to buy a router. Although many router manufacturers are releasing faster speeds, the security is standard is becoming outdated. That is, until now. A replacement for WPA2, which has been around for far too long, is coming in 2018. Now that WPA2 has been broken, the update for the standard can't arrive soon enough. 
-                    <a href="http://www.pcgamer.com/wpa3-is-bringing-stronger-encryption-and-security-to-wi-fi-routers-in-2018/">
-                    <u>PCGamer</u></a>has a great article discussing WPA3.</p>
-                </div>
-                <div class="article column6">
-                    <a href="http://www.techradar.com/news/new-mac-malware-hijacks-dns-and-compromises-internet-traffic">
-                    <img src="mac-malware.png" class="mac" /></a>
-                    <h3><a href="http://www.techradar.com/news/new-mac-malware-hijacks-dns-and-compromises-internet-traffic">New Malware Found on iMacs and Macbooks</a></h3>
-                    <p id="mactext">New malware has been discovered on Apple's iMacs and Macbooks. Code named OSX/MaMi, the malware changes the DNS server settings on the victim's machine, redirecting their internet traffic through malicious servers designed to steal the user's data. The malware is capable of taking screenshots, downloading and uploading files, executing commands and configures the machine for a man-in-the-middle attack.</p>
-                </div>
-                <div class="logo column7">
+                   <a href="https://videocardz.com/75095/new-coffee-lake-cpus-already-in-stock-and-shipping"><img src="8700k.png" class="artimg5"/></a>
+                   <h3 id="ach5"><a href="https://videocardz.com/75095/new-coffee-lake-cpus-already-in-stock-and-shipping">Intel Announces Several New Coffee Lake CPUs</a></h3>
+                   <p id="ac5text">Over the next two months, Intel will release several new CPUs and chipsets for budget motherboards. Intel Coffee Lake platform will soon receive more SKUs, including Core i5-8600 (nonK), Core i5-8500, Core i3-8300 and at least five Pentiums and Celerons.
+
+                    The launch of the new budget CPUs will be accompanied by cheaper motherboards, such as B360 or H370. For Pentium and Celeron processors, you may want to wait for H310. This chipset will be the mainstream platform for them.
                     
+                    Estimated cost for the new CPUs are looking to be $220-$200 for new i5 CPUs. The list of new CPUs and pricing are in the article located<a href="https://videocardz.com/75095/new-coffee-lake-cpus-already-in-stock-and-shipping">here.</a>
+                    </p>
                 </div>
-                <div class="logo column8">
+                <div class="side column6">
+                    <h3 id="ach6"><a href="http://www.tomshardware.com/news/amd-raven-ridge-gaming-performance,36542.html">AMD APUs Benchmarked</h3>
+                    <a href="http://www.tomshardware.com/news/amd-raven-ridge-gaming-performance,36542.html"><img src="ryzen52400g.png" class="artimg6" /></a>
+                </div>
+                <div class="side column7">
+                    <h3 id="ach7"><a href="https://www.pcgamer.com/intel-explains-why-we-dont-have-10ghz-processors-by-now/">Intel explains why we do not have 10 GHz CPUs yet</a></h3>
+                    <a href="https://www.pcgamer.com/intel-explains-why-we-dont-have-10ghz-processors-by-now/"><img src="intelcpus.png" class="artimg7" /></a>
+                </div>
+                <div class="article column8">
+                    <h3 id="ach8"><a href="https://www.pcgamer.com/samsungs-30tb-solid-state-drive-can-hold-a-ton-of-games/">Samsung's Incredible 30TB SSD</a></h3>
+                    <a href="https://www.pcgamer.com/samsungs-30tb-solid-state-drive-can-hold-a-ton-of-games/"><img src="samsung30tb.png" class="artimg8" /></a>
+                    <p id="ac8text">Just think of how many games from your Steam library you could install and how fast they would load if you had a 30TB solid state drive. For many gamers, that's enough capacity to install all of them or and never have to worry about installing certain games to a secondary mechanical drive. This dream might not be that far off, as Samsung is now producing <a href="https://www.pcgamer.com/samsungs-30tb-solid-state-drive-can-hold-a-ton-of-games/">30.72TB SSDs.</a></p>
+                    <p id="top"><a href="#header">BACK TO TOP</a></p>
+                </div>
+                <div id="software">
+                    <h2>Software</h2>
+                </div>
+                <div class="article column9">
+                   <h3 id="ach9"><a href="https://www.techradar.com/news/youtube-tv-everything-you-need-to-know-about-the-new-tv-streaming-service">Everything You Need To Know About YouTube TV</a></h3>
+                   <a href="https://www.techradar.com/news/youtube-tv-everything-you-need-to-know-about-the-new-tv-streaming-service"><img src="youtubetv.jpg" class="artimg9" /></a>
+                   <p id="ac9text">YouTube TV is looking to continue with the cord-cutting movement - and it has good reason to believe that can happen. After all, YouTube was the biggest name in video streaming long before Hulu, Netflix and Amazon ever thought to get into the video-on-demand game. Currently priced at $35/month (Will be $40/month after March 13), it offers most local channels in your area with several other popular channels such as ESPN, FOX Sports, CBS Sports, TNT, CNN, USA, MSNBC, FX and Disney! The only issue is, availability.</p>
+                </div>
+                <div class="side column10">
+                    <h3 id="ach10"><a href="https://www.techradar.com/news/the-best-free-parental-control-software">Best Software To Help Keep Your Children Safe Online</a></h3>
+                    <a href="https://www.techradar.com/news/the-best-free-parental-control-software"><img src="social_media_collage.jpg" class="artimg10" /></a>
+                </div>
+                <div class="content column11">
                     
-                </div>
-                <div class="logo column9">
-                   
-                </div>
+                 </div>
+                 <div class="content column12">
+                     
+                 </div>
             </div>
             <div id="social">
                     <ul>
-                        <li><a href="https://www.instagram.com/techratedjrose/" title="Instagram">
+                        <li><a href="https://www.instagram.com/jasonrosetech/" title="Instagram">
                             <img src="instagram.png" class="instagram" />
                             </a></li>
-                            <li><a href="https://twitter.com/TechRatedJRose" title="Twitter">
+                            <li><a href="https://twitter.com/jasonrosetech" title="Twitter">
                                 <img src="twitter.png" class="twitter" />
                             </a></li>  
-                            <li><a href="https://www.youtube.com/channel/UCESQ_OYtx3yeCNnKNipXDAg?view_as=subscriber" title="YouTube">
-                                <img src="youtube.png" class="youtube" />
-                            </a></li> 
                             <li><a href="https://www.linkedin.com/in/jason-rose-6229454a/" title="LinkedIn">
                                 <img src="linkedin.png" class="linkedin" />
                             </a></li> 
