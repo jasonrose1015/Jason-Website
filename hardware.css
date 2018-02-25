@@ -30,7 +30,7 @@
                     text-transform: uppercase;
                     letter-spacing: 1px;
                 }
-                .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten{
+                .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten {
                     height: 90%;
                     width: 35%;
                     margin-top: 2.5%;
@@ -155,7 +155,7 @@
                 }
                 .month {
                     height: 20em;
-                    min-width: 35em;
+                    min-width: 30em;
                     background-color: #0000009f;
                 }
                 .blank {
