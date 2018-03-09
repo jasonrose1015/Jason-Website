@@ -30,7 +30,15 @@
                     text-transform: uppercase;
                     letter-spacing: 1px;
                 }
-                .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten {
+                .one {
+                    height: 90%;
+                    width: 30%;
+                    margin-top: 2.5%;
+                    margin-left: 2.0%;
+                    margin-right: 5%;
+                    float: left;
+                }
+                .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten {
                     height: 90%;
                     width: 35%;
                     margin-top: 2.5%;
