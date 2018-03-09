@@ -38,9 +38,17 @@
                     margin-right: 5%;
                     float: left;
                 }
-                .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten {
+                .two, .three, .four, .five, .six, .seven, .eight, .ten {
                     height: 90%;
                     width: 35%;
+                    margin-top: 2.5%;
+                    margin-left: 2.0%;
+                    margin-right: 5%;
+                    float: left;
+                }
+                .nine {
+                  height: 90%;
+                    width: 30%;
                     margin-top: 2.5%;
                     margin-left: 2.0%;
                     margin-right: 5%;
