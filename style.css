@@ -91,7 +91,7 @@ body {
   transition: all 1.7s cubic-bezier(0.22, 0.44, 0, 1);
 }
 .content-title {
-  font-size: 12vh;
+  font-size: 10vh;
   line-height: 1.4;
   background-color: rgba(0, 0, 0, 0.45);
 }
