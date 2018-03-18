@@ -1,305 +1,60 @@
 <!DOCTYPE html>
-    <html>
-        <head>
-            <title>Jason Rose | Computer Hardware and Web Design</title>
-            <style type="text/css">
-                html {
-                    height: 100%;
-                }
-                body {
-                    width: 90%;
-                    margin: 0 auto;
-                    text-align: center;
-                    background-image: url("home.jpg");
-                    background-color: #000000;               
-                }
-                #header {
-                    margin-top: 20px;
-                }
-                #gtx {
-                    width: 70%;
-                    margin-left: 1%;
-                }
-                #webnav {
-                    margin-right: 1%;
-                }
-                #content {
-                    overflow: auto;
-                }
-                #footer {
-                    margin: 1%;
-                }
-                #nav {
-                    margin-top: 1%;
-                    margin-bottom: .5%;
-                }
-                h3 {
-                    margin-top: -3%;
-                    margin-bottom: -2%;
-                    color: #ffffff;
-                }
-                .welcome {
-                    height: 6em;
-                    background-color: #0000004b;
-                    color: #ffffff;
-                    font-family: "Wellfleet";
-                    padding: 1%;
-                }
-                .weatherwidget-io {
-                    width: 100%; 
-                }
-                .twitter-timeline {
-                    width: 95%;
-                }
-                .gear {
-                    height: 280px;
-                    width: 300px;
-                    margin-top: 5%;
-                    float: left;
-                }
-                .gear:hover {
-                    transform: scale(1.05);
-                }
-                #gear {                 
-                    font-family: "Wellfleet";
-                    margin: 3% auto auto auto;
-                    color: #ff2525;                     
-                }
-                .upgrade {
-                    height: 280px;
-                    width: 350px;
-                    margin-top: -10%;
-                    margin-left: -5%;
-                    float: left;
-                }
-                .upgrade:hover {
-                    transform: scale(1.05);
-                }
-                #upgrade {
-                    font-family: "Wellfleet";
-                    margin: 3% auto auto auto;
-                    color: #ff2525;
-                }
-                #text {
-                    text-align: justify;
-                    margin: -2% 8% auto auto;
-                    width: 60%;
-                    min-width: 55%;
-                    font-family: "Wellfleet";
-                    font-size: 12pt;
-                    color: #ffffff;            
-                }
-                .column1 {
-                    width: 100%;
-                    margin-top: 1%;
-                    overflow: auto;
-                }
-                .column2, .column4 {
-                    width: 31.3%;
-                    float: left;
-                    margin: 1%;
-                    overflow: auto;
-                    
-                }
-                .column3, .column7 {
-                    width: 31.3%;
-                    float: left;
-                    margin: 1%;
-                    overflow: auto;
-                }
-                .column5, .column6 {
-                    width: 48%;
-                    margin: 1%;
-                    overflow: auto;
-                    float: left
-                }
-                li {
-                    display: inline;
-                    padding: 0.5em;
-                }
-                #nav, #footer {
-                    background-color: #0000004b;
-                    padding: 0.5em 0;
-                    font-family: "Wellfleet";
-                    color: #ffffff;    
-                }
-                #footer {
-                    margin-top: 2%;
-                }
-                .weather {
-                    height: 6.5em;
-                   
-                }
-                .social {
-                    height: 25em;
-                    margin-bottom: 1%;
-                    background-color: #0000004b;
-                }
-                .article {
-                    height: 28em;
-                    border-radius: 5px;
-                    margin-bottom: 1%;
-                    background-color: #0000004b;
-                }
-                .info {
-                    height: 15em;
-                    margin-bottom: .5%;
-                }
-                a {
-                    font-size: 13pt;
-                    text-decoration: none;
-                    color: #ffffff;   
-                    padding: 2%;
-                }
-                a:visited {
-                    color: rgb(34, 220, 226);
-                }
-                a:hover {
-                    color: #6797ff;
-                }
-                #nav li a.active {
-                    text-decoration: underline;
-                    color: #ff2525
-                }
-                #social {
-                    width: 98%;
-                    margin: 30px auto 0px -5px;
-                    padding: 1px;
-                }
-                .instagram {
-                    width: 40px;
-                    height: 36px;
-                }
-                .instagram:hover {
-                    transform: scale(1.1);
-                }
-                .twitter {
-                    width: 38px;
-                    height: 34px;
-                }
-                .twitter:hover {
-                    transform: scale(1.1);
-                }
-                .youtube {
-                    width: 40px;
-                    height: 36px;
-                }
-                .youtube:hover {
-                    transform: scale(1.1);
-                }
-                .linkedin {
-                    width: 40px;
-                    height: 36px;
-                }
-                .linkedin:hover {
-                    transform: scale(1.1);
-                }
-                .reddit {
-                    width: 42px;
-                    height: 36px;
-                }
-                .reddit:hover {
-                    transform: scale(1.1);
-                }
-                
-            </style>
-            
-             <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
-             <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
-        </head>
-        <body>
-            <div id="header">
-                <img src="1070-header5.png" id="gtx" />
-                <div id="nav">
-                    <ul>
-                        <li><a href="index.html" class="active">Home</a></li>
-                        <li><a href="news.html">Tech News</a></li>
-                        <li><a href="hardware.html">Hardware</a></li>
-                        <li><a href="images.html">Builds</a></li>
-                        <li><a href="web-design.html" id="webnav">Web Portfolio</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div id="content"> 
-                <div class="welcome">
-                    <p>Welcome to my website! The focus will be the latest PC hardware, my builds, benchmarks and top rated components for the mid-range to enthusiast builder. 
-                       I will post photos of previous and current PC builds along with my recommended peripherals and accessories.
-                       Also, I will review any tech that I purchase and share my weekend projects. I also enjoy creating in HTML, CSS and Javascript and will be adding to my portfolio regularly. 
-                       The code to each will be available on GitHub. Follow on Instagram, Twitter, GitHub and Bookmark this page for my latest work! Suggestions are welcome!</p>
-                </div>
-                <div class="weather column1">
-                    <a class="weatherwidget-io" href="https://forecast7.com/en/37d85n83d86/stanton/?unit=us" data-label_1="STANTON" data-label_2="WEATHER" data-font="Arial Rounded MT Bold" data-icons="Climacons Animated" data-theme="sky" >STANTON WEATHER</a>
-                    <script>
-                    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://weatherwidget.io/js/widget.min.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","weatherwidget-io-js");
-                    </script>
-                </div>
-                <div class="social column2">
-                    <a class="twitter-timeline" href="https://twitter.com/JasonRoseTech?ref_src=twsrc%5Etfw">Tweets by JasonRoseTech</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                </div>
-                <div class="info column3">
-                   
-                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <ins class="adsbygoogle"
-                style="display:block; text-align:center;"
-                data-ad-layout="in-article"
-                data-ad-format="fluid"
-                data-ad-client="ca-pub-9947585218169433"
-                data-ad-slot="7245438930"></ins>
-                <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
-                    
-                </div>
-                <div class="social column4">
-                   <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/Bd4C52MA7kX/" 
-                    data-instgrm-version="8" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); 
-                    margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
-                    <div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:49.9537037037037% 0; text-align:center; width:100%;"> 
-                    <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); 
-                    display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> 
-                    <a href="https://www.instagram.com/p/Bd4C52MA7kX/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; 
-                    line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">This card (GTX 1070 FTW2 iCX) is a beast! No reason to upgrade anytime soon. Except to maybe add another. 😏 #evga #nvidia #geforce #geforcegtx #hardware #pc #pcgaming #pcmasterrace #technology #tech</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by <a href="https://www.instagram.com/jasonrosetech/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank"> Jason Rose</a> (@jasonrosetech) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2018-01-13T04:09:31+00:00">Jan 12, 2018 at 8:09pm PST</time></p></div></blockquote> <script async defer src="//www.instagram.com/embed.js"></script>
-                </div>
-                <div class="article column5">
-                    <h2 id="gear">Gear of the Month:</h2><h2 style=color:#00ffff>Logitech Master 2s</h2>
-                    <a href="https://www.logitech.com/en-us/product/mx-master-2s-flow"><img src="mx-master-2s.png" class="gear" /></a>
-                    <p id="text">Logitech’s flagship mouse is designed for power users and masters of their craft who want to get more done, more efficiently. 
-                       MX Master 2S packs a punch with Logitech Flow that lets you seamlessly control two computers with one mouse and copy-paste content between them. 
-                       Combined with other advanced features and a stunning design, it provides exceptional comfort, control, precision and customization.</p>
-                </div>
-                <div class="article column6">
-                    <h2 id="upgrade">Upgrade of the Month:</h2><h2 style=color:#00ffff>AMD Ryzen 5 2400G</h2>
-                    <a href="https://www.newegg.com/Product/Product.aspx?Item=19-113-480&Tpk=19-113-480"><img src="ryzen52400g.png" class="upgrade" /></a>
-                    <p id="text">What happens when you combine some of the most advanced consumer processors ever made with exceptional graphics clarity on one chip? Find out for yourself when Ryzen meets Radeon. 
-                                 Incredible console-class gaming – No graphics card required. The new AMD Ryzen processor with Radeon Vega Graphics.</p>
-                </div>
-                <div class="info column7">
-                    
-                </div>
-            </div>
-            <div id="social">
-                    <ul>
-                        <li><a href="https://www.instagram.com/techratedjrose/" title="Instagram">
-                            <img src="instagram.png" class="instagram" />
-                            </a></li>
-                            <li><a href="https://twitter.com/TechRatedJRose" title="Twitter">
-                                <img src="twitter.png" class="twitter" />
-                            </a></li>  
-                            <li><a href="https://www.youtube.com/channel/UCESQ_OYtx3yeCNnKNipXDAg?view_as=subscriber" title="YouTube">
-                                <img src="youtube.png" class="youtube" />
-                            </a></li> 
-                            <li><a href="https://www.linkedin.com/in/jason-rose-6229454a/" title="LinkedIn">
-                                <img src="linkedin.png" class="linkedin" />
-                            </a></li> 
-                            <li><a href="https://www.reddit.com/user/jasonrose1015/" title="Reddit">
-                                <img src="reddit.png" class="reddit" />
-                        </a></li> 
-                    </ul>
-                    
-                </div>
-            <div id="footer">
-                <p>&copy; Copyright 2018 - Jason Rose</p>
-            </div>
+<html lang="en" >
 
-        </body>
-    </html>
+<head>
+  <meta charset="UTF-8">
+  <title>Jason Rose | Computer Hardware and Web Design</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+  
+      <link rel="stylesheet" href="style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="container">
+  <section class="background">
+    <div class="content-wrapper">
+      <p class="content-title">Jason Rose Tech</p>
+      <p class="content-subtitle">Tech News, Computer Hardware and Web Design</p>
+    </div>
+  </section>
+  <section class="background">
+    <div class="content-wrapper">
+      <p class="content-title">Tech News</p>
+      <p class="content-subtitle">The latest news in hardware, software and data security.</p>
+      <p class="content-link"><a href="news.html">Latest Tech News</a></p>
+    </div>
+  </section>
+  <section class="background">
+    <div class="content-wrapper">
+      <p class="content-title">Computer Hardware</p>
+      <p class="content-subtitle">Top Rated computer hardware and my latest PC builds.</p>
+      <p class="content-link"><a href="hardware.html">Top Rated Hardware</a></p>
+    </div>
+  </section>
+  <section class="background">
+    <div class="content-wrapper">
+      <p class="content-title">Web Design</p>
+      <p class="content-subtitle">Each of my html templates, available on GitHub.</p>
+      <p class="content-link"><a href="web-design.html">HTML Templates on GitHub</a></p>
+    </div>
+  </section>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js'></script>
+<script src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
