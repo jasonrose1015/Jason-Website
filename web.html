@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Jason Rose | Web Design | CSS</title>
+            <style type="text/css">
+                html {
+                    height: 95%;
+                }
+                body {
+                    width: 90%;
+                    margin: 0 auto;
+                    text-align: center;
+                    background-image: url("background.jpg");
+                }
+                #header {
+                    margin-top: 20px;
+                }
+                #gtx {
+                    width: 70%;
+                    margin-left: 1%;
+                }
+                #webdetail {
+                    width: 98%;
+                    margin-bottom: .5%;
+                    margin-left: 1%;
+                    margin-top: 1%;
+                    background-color: #029aff;
+                    color: #ffffff;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                }
+                #content {
+                    overflow: auto;
+                }
+                #nav, #footer {
+                    margin: 1%;
+                }
+                .column1:hover, .column2:hover, .column3:hover, .column4:hover {
+                    background: linear-gradient(rgba(167, 167, 168, 0.904), rgba(85, 85, 87, 0.781));
+                    transform: scale(1.01);
+                }
+                .column5:hover, .column6:hover, .column7:hover, .column8:hover {
+                    background: linear-gradient(rgba(0167, 167, 168, 0.904), rgba(85, 85, 87, 0.781));
+                    transform: scale(1.01);
+                }
+                figcaption {
+                    color: #ffffff;
+                }
+                .column1, .column2 {
+                    width: 48%;
+                    float: left;
+                    margin: 1%;                  
+                }
+                .column3, .column4 {
+                    width: 48%;
+                    float: left;
+                    margin: 1%;
+                }
+                .column5, .column6 {
+                    width: 48%;
+                    float: left;
+                    margin: 1%;
+                }
+                .column7, .column8 {
+                    width: 48%;
+                    float: left;
+                    margin: 1%;
+                }
+                .column9, .column10 {
+                    width: 48%;
+                    float: left;
+                    margin: 1%;
+                }
+                #nav li {
+                    display: inline;
+                    padding: .5em;
+                }
+                #webnav {
+                    margin-right: 1%;
+                }
+                #nav li a {
+                    padding: 2%;
+                }
+                #web1, #web2, #web3, #web4, #web5, #web6, #web7, #web8 {
+                    height: 80%;
+                    width: 90%;
+                    margin-top: 4%;
+                    margin-left: 1%;
+                    margin-right: 1%;
+                    border-radius: 5px;
+                }
+                #nav, #footer {
+                    background-color: #000000b2;
+                    padding: 0.5em 0;
+                    font-family: "Wellfleet";
+                    color: #ffffff; 
+                }
+                .article {
+                    height: 20em;
+                    margin-bottom: 1em;
+                    background-color: #0000009f;
+                    border-radius: 5px;
+                }
+                .logo {
+                    height: 10em;
+                    margin-bottom: 1em;
+                }
+                a {
+                    font-size: 13pt;
+                    text-decoration: none;
+                    color: #ffffff;
+                    padding: 2%;
+                }
+                
+                a:hover {
+                    color: #6797ff;
+                }
+                #nav li a.active {
+                    text-decoration: underline;
+                    color: #029aff;
+                }
+                #social {
+                    width: 98%;
+                    margin: 25px auto 0px -5px;
+                    padding: 1px;
+                }
+                #social li {
+                    display: inline;
+                    padding: 0.5em;
+                }
+                .instagram {
+                    width: 40px;
+                    height: 36px;
+                }
+                .instagram:hover {
+                    transform: scale(1.1);
+                }
+                .twitter {
+                    width: 38px;
+                    height: 34px;
+                }
+                .twitter:hover {
+                    transform: scale(1.1);
+                }
+                .youtube {
+                    width: 40px;
+                    height: 36px;
+                }
+                .youtube:hover {
+                    transform: scale(1.1);
+                }
+                .linkedin {
+                    width: 39px;
+                    height: 35px;
+                }
+                .linkedin:hover {
+                    transform: scale(1.1);
+                }
+                .github {
+                    width: 42px;
+                    height: 38px;
+                }
+                .github:hover {
+                    transform: scale(1.1);
+                }
+            </style>
+             <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+             <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+        </head>
+        <body>
+            <div id="header">
+                <img src="" id="gtx" />
+                <div id="nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="news.html">Tech News</a></li>
+                        <li><a href="hardware.html">Hardware</a></li>
+                        <li><a href="web-design.html" id="webnav" class="active">Web Design</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 id="webdetail">My CSS Templates are available on GitHub!</h3>
+                </div>
+            </div>
+            <div id="content">
+                <div class="article column1">
+                    <a href="https://github.com/jasonrose1015/Liquid-Layout-Template/blob/master/Liquid%20Layout%20Template"><img src="liquid.png" id="web1" /></a>
+                    <figcaption>Liquid Layout Template</figcaption>
+                </div>
+                <div class="article column2">
+                    <a href="https://github.com/jasonrose1015/Fixed-Width-Layout-Template/blob/master/Fixed-Width-Layout-Template"><img src="fixed.png" id="web2" /></a>
+                    <figcaption>Fixed Width Template</figcaption>
+                </div>
+                <div class="article column3">
+                    <a href="https://github.com/jasonrose1015/Aside-Layout-Template/blob/master/Aside-Layout-Template"><img src="aside.png" id="web7" /></a>
+                    <figcaption>Aside Template</figcaption>
+                </div>
+                <div class="article column4">
+                    <a href="https://github.com/jasonrose1015/three-column-float/blob/master/three-column-float"><img src="float.png" id="web4" /></a>
+                    <figcaption>Column Float Template</figcaption>
+                </div>
+                <div class="article column5">
+                    <a href="https://github.com/jasonrose1015/960-12-Grid-Template-V1/blob/master/960-12-Grid%20Template%20V1"><img src="960-12V1.png" id="web5" /></a>
+                    <figcaption>960-12 Grid Template V1</figcaption>
+                </div>
+                <div class="article column6">
+                    <a href="https://github.com/jasonrose1015/960-12-Grid-Template-V2/blob/master/960-12-Grid-Template%20V2"><img src="960-12V2.png" id="web6" /></a>
+                    <figcaption>960-12 Grid Template V2</figcaption>
+                </div>
+                <div class="article column7">
+                    <a href="https://github.com/jasonrose1015/Table-and-Form-Template/blob/master/Table%20and%20Form%20Template"><img src="table-form.png" id="web3" /></a>
+                    <figcaption>Table and Form Template</figcaption>
+                </div>
+                <div class="article column8">
+                    <a href=""><img src="" id="web8" /></a>
+                    <figcaption>Coming Soon!</figcaption>
+                </div>
+                <div class="logo column9">
+                    
+                </div>
+                <div class="logo column10">
+                    
+                </div>
+                <div class="logo column11">
+                    
+                </div>
+                <div class="logo column12">
+                    
+                </div>
+            <div id="social">
+                    <ul>
+                        <li><a href="https://www.instagram.com/techratedjrose/" title="Instagram">
+                            <img src="instagram.png" class="instagram" />
+                            </a></li>
+                            <li><a href="https://twitter.com/TechRatedJRose" title="Twitter">
+                                <img src="twitter.png" class="twitter" />
+                            </a></li>  
+                            <li><a href="https://www.linkedin.com/in/jason-rose-6229454a/" title="LinkedIn">
+                                <img src="linkedin.png" class="linkedin" />
+                            </a></li> 
+                            <li><a href="https://github.com/jasonrose1015" title="GitHub">
+                                <img src="github.png" class="github" />
+                        </a></li> 
+                    </ul>
+                </div>
+            <div id="footer">
+                <p>&copy; Copyright 2018 - Jason Rose</p>
+            </div>
+        </body>
+    </html>
