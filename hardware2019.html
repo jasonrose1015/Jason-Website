@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jason Rose | Computer Hardware</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    
+    body {
+        background-color: #333;
+    }
+
+    #box-container1 {
+        height: 60px;
+        display: flex;       
+    }
+                
+    #box-1 {
+        width: 100%;
+        height: 100%;
+        background-color: #2d42bb;
+        text-align: center;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #2d42bb;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        color: rgb(128, 126, 126);
+        
+    }
+    
+    #title {
+        text-align: center;
+        margin-top: 10%;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: #ffffff;
+    }
+
+    @media screen and (min-width: 641px) {
+        #title {
+            font-size: 18pt;
+        }
+    }
+ 
+    @media screen and (max-width: 640px) {
+        #title {
+            font-size: 12pt;
+            margin-top: 25%;
+        }
+    }
+
+    #box-container2 {
+        height: 400px;
+        display: flex; 
+        background-image: url("images/hardwaretitle.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;      
+    }
+
+    #box-2 {
+        width: 100%;
+        height: 100%;    
+        border-top: 2px solid #ffffff;        
+    }
+
+    #box-container3 {
+        height: 200px;
+        display: flex;
+    }
+
+    #box-3 {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        padding: 5px;
+        background-color: #2d42bb;
+        border-top: 2px solid #ffffff;
+    }
+
+    #intro {
+        width: 100%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-transform:  uppercase;
+        color: #ffffff;
+        margin-top: 4%;
+    }
+
+    @media screen and (max-width: 640px) {
+        #intro {
+            font-size: 10pt;
+            margin-top: 10%;
+        }
+    }
+
+    #box-container4 {
+        height: 425px;
+        display: flex;
+    }
+
+    #box-4, #box-8 {
+        width: 33%;
+        height: 100%;
+        background-color: #464747;
+        border-top: 2px solid #ffffff;
+        border-right: 2px solid #ffffff;
+    }
+    
+    #hardware1-info, #hardware2-info, #hardware3-info, #hardware4-info, #hardware5-info, #hardware6-info {
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+    }
+
+    #hardware1-content, #hardware4-content {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        color: #ffffff;
+        padding: 3px;
+    }
+
+    #hardware1, #hardware4 {
+        width: 60%;
+        height: 70%;
+        min-width: 150px;
+        display: block;
+        margin: 15px auto auto auto;
+        border-radius: 5px;
+    }
+
+    #box-5, #box-9 {
+        width: 34%;
+        height: 100%;
+        background-color: #464747;
+        border-top: 2px solid #ffffff;
+        border-right: 2px solid #ffffff;
+    }
+
+    #hardware2-content, #hardware5-content {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        color: #ffffff;
+        padding: 3px;
+    }
+
+    #hardware2, #hardware5 {
+        width: 60%;
+        height: 70%;
+        min-width: 150px;
+        display: block;
+        margin: 15px auto auto auto;
+        border-radius: 5px;
+    }
+
+    #box-6, #box-10 {
+        width: 33%;
+        height: 100%;
+        background-color: #464747;
+        border-top: 2px solid #ffffff;
+    }
+
+    #hardware3-content, #hardware6-content {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        color: #ffffff;
+        padding: 3px;
+    }
+
+    #hardware3, #hardware6 {
+        width: 60%;
+        height: 70%;
+        min-width: 150px;
+        display: block;
+        margin: 15px auto auto auto;
+        border-radius: 5px;
+    }
+
+    .tophardware {
+        text-align: center;
+        font-size: 11pt;
+    }
+
+    p a {
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    p a:visited {
+        color: #fff;
+    }
+
+    p a:hover {
+        color: #4ba8f5;
+    }
+
+    @media screen and (max-width: 640px) {
+        #hardware1-content, #hardware2-content, #hardware3-content, #hardware4-content, #hardware5-content, #hardware6-content, .hardwaretitle, .tophardware {
+            font-size: 10pt;
+        }
+    }
+
+    #box-container5, #box-container7 {
+        height: 110px;
+        display: flex;       
+    }
+
+    #box-container6 {
+        height: 425px;
+        display: flex;
+    }
+
+    #box-7, #box-11 {
+        width: 100%;
+        height: 100%;
+        background-color: #2d42bb;
+        text-align: center;
+        border-top: 2px solid #ffffff;
+    }
+
+    .footer, .hardwaretitle {
+        color: #fff;
+    }
+
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+    }
+
+    .fa:hover {
+        transform: scale(1.1);
+    }
+
+    .fa-youtube {
+        background: #2d42bb;
+        color: white;   
+    }
+
+    .fa-twitter {
+        background: #2d42bb;
+        color: white;
+    }
+
+    .fa-linkedin {
+        background: #2d42bb;
+        color: white;
+    }
+
+    .fa-instagram {
+        background: #2d42bb;
+        color: white;
+}
+    </style>
+    </head>
+    <body>
+        <div id="box-container1">
+            <div id="box-1">
+                <div>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="hardware2019.html">Computer Hardware</a></li>
+                        <li><a href="web2019.html">Web Design</a></li>
+                        <li><a href="blog2019.html">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="box-container2">
+                <div id="box-2">
+                    <div id="title">
+                        <h1>Jason Rose | Computer Hardware</h1>
+                        <h4>PC Builds - Hardware Benchmarks - My Top Rated Computer Hardware</h4>
+                    </div>
+                </div>
+        </div>
+        <div id="box-container3">
+                <div id="box-3">
+                    <article id="intro">
+                    <h4>I have been working with computer hardware and building PCs for 20 years.</h4>
+                    <p><em>"May Our Framerates Be High and Our Temperatures Low ." - Paul's Hardware</em></p>
+                    </article>
+                </div>
+        </div>
+        <div id="box-container4">
+                <div id="box-4">
+                    <div id="hardware1-info">
+                    <article id="hardware1-content">
+                        <h3>Intel Core i7-6700K and SLI MSI GTX 970 Build (2015)</h3>
+                        <a href="timbuild.html">
+                        <img src="images/hardware1.jpg" id="hardware1" alt="hardware-info"></a>
+                        <p>This build was completed for my brother, Timothy. At the time, he was in college. He wanted a system that would allow him to complete projects and play some high-end games. We added 2 x GTX 970s for SLI, 16GB of RAM and an SSD for awesome load times.</p>
+                    </article>
+                    </div>
+                </div>
+                <div id="box-5">
+                    <div id="hardware2-info">
+                    <article id="hardware2-content">
+                        <h3>Intel Core i7-6700K and EVGA GTX 970 Build (2016)</h3>
+                        <a href="https://www.youtube.com/watch?v=QcLv6lsseZ8">
+                        <img src="images/ttp5.jpg" id="hardware2" alt="web-info"></a>
+                        <p>This was a personal build using the Thermaltake Core P5 case. It is a unique case, with an open air cooling style. I added the Corsair H100i AiO to help cool the CPU.</p>
+                    </article>
+                </div>
+                </div>
+                <div id="box-6">
+                    <div id="hardware3-info">
+                    <article id="hardware3-content">
+                        <h3>Intel Core i7-8700K and EVGA GTX 1070 FTW2 iCX and Corsair 570X Build (2017)</h3>
+                        <a href="https://www.youtube.com/watch?v=5wceu31VATI">
+                        <img src="images/570x.jpg" id="hardware3" alt="instructor-info"></a>
+                        <p>After the Thermaltake Core P5 Build, I decided to upgrade my case when Corsair announced the 570X. This case features four tempered glass panels and is capable of holding 360mm AiO radiators at the top and in the front.</p>
+                    </article>
+                    </div>
+                </div>
+        </div>
+        <div id="box-container7">
+            <div id="box-11">
+                <div class="hardwaretitle">
+                    <h3>MY TOP RATED HARDWARE FOR EACH CATEGORY</h3>
+                    <p>WHATEVER YOUR BUDGET OR PLATFORM, THESE ARE THE COMPONENTS I SUGGEST FOR YOUR NEXT BUILD (FEB. 2019).</p>
+                </div>
+            </div>
+        </div>
+        <div id="box-container6">
+                <div id="box-8">
+                    <div id="hardware4-info">
+                    <article id="hardware4-content">
+                        <h3>Top Rated CPUs</h3>
+                        <p class="tophardware">
+                        <a href="https://www.newegg.com/Product/Product.aspx?Item=N82E16819113499">AMD Ryzen 7 2700X</a> <br><br>
+                        <a href="https://www.newegg.com/Product/Product.aspx?item=N82E16819117827">Intel Core i7 8700K</a>
+                        </p>
+                        <hr>
+                        <h3>Top Rated Motherboards</h3>
+                        <p class="tophardware">
+                        <a href="https://www.newegg.com/Product/Product.aspx?Item=N82E16813119097">ASUS ROG Crosshair VII Hero</a> <br><br>
+                        <a href="https://www.newegg.com/Product/Product.aspx?Item=N82E16813119150">ASUS ROG Maximus XI Hero Z390</a>
+                        </p>
+                        <hr>
+                        <h3>Top Rated Video Cards</h3>
+                        <p class="tophardware">
+                        <a href="https://www.newegg.com/Product/Product.aspx?Item=N82E16814126245&Description=Vega%2064&cm_re=Vega_64-_-14-126-245-_-Product">ASUS AREZ Radeon RX Vega 64</a> <br><br>
+                        <a href="https://www.newegg.com/Product/Product.aspx?Item=N82E16814126266">ASUS ROG GeForce RTX 2070</a>
+                        </p>
+                    </article>
+                    </div>
+                </div>
+                <div id="box-9">
+                    <div id="hardware5-info">
+                    <article id="hardware5-content">
+                        <h3>Top Rated RAM</h3>
+                        <p class="tophardware">
+                        <a href="https://www.newegg.com/Product/Product.aspx?Item=9SIAG7R7AN7772&cm_sp=SearchSuccess-_-INFOCARD-_-Corsair+Memory-_-9SIAG7R7AN7772-_-2&Description=Corsair+Memory">Regular - G.SKILL Ripjaws V Series</a> <br><br>
+                        <a href="https://www.newegg.com/Product/Product.aspx?Item=N82E16820236419&Description=Corsair%20Memory&cm_re=Corsair_Memory-_-20-236-419-_-Product">RGB - CORSAIR Vengeance RGB Pro</a>
+                        </p>
+                        <hr>
+                        <h3>Top Rated SSDs and HDDs</h3>
+                        <p class="tophardware">
+                        <a href="https://www.newegg.com/Product/Product.aspx?Item=9SIA4P02S09329&Description=850%20evo&cm_re=850_evo-_-20-147-372-_-Product">SSD - Samsung 850 EVO</a> <br><br>
+                        <a href="https://www.newegg.com/Product/Product.aspx?Item=N82E16822178993">HDD - Seagate Barracuda</a>
+                        </p>
+                        <hr>
+                        <h3>Top Rated Power Supplies</h3>
+                        <p class="tophardware">
+                        <a href="https://www.newegg.com/Product/Product.aspx?Item=N82E16817438095">Fully Modular - EVGA SuperNOVA</a> <br><br>
+                        <a href="https://www.newegg.com/Product/Product.aspx?item=N82E16817139210">Semi-Modular - CORSAIR TX-M Series</a>
+                        </p>
+                    </article>
+                </div>
+                </div>
+                <div id="box-10">
+                    <div id="hardware6-info">
+                    <article id="hardware6-content">
+                        <h3>Top Rated Cases</h3>
+                        <p class="tophardware">
+                        <a href="https://www.newegg.com/Product/Product.aspx?item=N82E16811854039">Phanteks ENTHOO EVOLV</a> <br><br>
+                        <a href="https://www.newegg.com/Product/Product.aspx?item=N82E16811146273">NZXT H700i</a>
+                        </p>
+                        <hr>
+                        <h3>Top Rated Cooling Fan and AiO Cooler</h3>
+                        <p class="tophardware">
+                        <a href="https://www.newegg.com/Product/Product.aspx?item=N82E16835181130">Fan - Corsair LL Series</a> <br><br>
+                        <a href="https://www.newegg.com/Product/Product.aspx?Item=9SIA73M8ED6342&cm_sp=SearchSuccess-_-INFOCARD-_-rog+aio-_-9SIA73M8ED6342-_-2&Description=rog+aio">AiO - Corsair Hydro Series H115i RGB Platinum</a>
+                        </p>
+                        <hr>
+                        <h3>Top Rated Keyboard and Mouse</h3>
+                        <p class="tophardware">
+                        <a href="https://www.newegg.com/Product/Product.aspx?Item=N82E16823816088">Keyboard - Corsair K95 RGB PLATINUM</a> <br><br>
+                        <a href="https://www.newegg.com/Product/Product.aspx?Item=N82E16826197028&Description=logitech%20master%202s&cm_re=logitech_master_2s-_-26-197-028-_-Product">Mouse - Logitech MX Master 2S Wireless</a>
+                        </p>
+                    </article>
+                    </div>
+                </div>
+        </div>
+        <div id="box-container5">
+            <div id="box-7">
+                <div class="footer">
+                    <a href="https://www.instagram.com/jasonrosetech/" class="fa fa-instagram"></a>
+                    <a href="https://twitter.com/jasonrosetech" class="fa fa-twitter"></a>
+                    <a href="https://www.linkedin.com/in/jason-rose-6229454a/" class="fa fa-linkedin"></a>
+                    <a href="https://www.youtube.com/channel/UCESQ_OYtx3yeCNnKNipXDAg?view_as=subscriber" class="fa fa-youtube"></a>
+                    <br>&copy; Copyright 2019 | Jason Rose | All Rights Reserved
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

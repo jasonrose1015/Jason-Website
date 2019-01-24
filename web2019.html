@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jason Rose | Web Design</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    
+    body {
+        background-color: #333;
+    }
+
+    #box-container1 {
+        height: 60px;
+        display: flex;       
+    }
+                
+    #box-1 {
+        width: 100%;
+        height: 100%;
+        background-color: #1d553b;
+        text-align: center;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #1d553b;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        color: rgb(128, 126, 126);
+        
+    }
+    
+    a:visited {
+        color: #fff;
+    }
+
+    a:hover {
+        color: #4ba8f5;
+    }
+
+    #title {
+        text-align: center;
+        margin-top: 10%;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: #ffffff;
+    }
+
+    @media screen and (min-width: 641px) {
+        #title {
+            font-size: 18pt;
+        }
+    }
+ 
+    @media screen and (max-width: 640px) {
+        #title {
+            font-size: 12pt;
+            margin-top: 25%;
+        }
+    }
+
+    #box-container2 {
+        height: 400px;
+        display: flex; 
+        background-image: url("images/imac.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;      
+    }
+
+    #box-2 {
+        width: 100%;
+        height: 100%;    
+        border-top: 2px solid #ffffff;        
+    }
+
+    #box-container3 {
+        height: 200px;
+        display: flex;
+    }
+
+    #box-3 {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        padding: 5px;
+        background-color: #1d553b;
+        border-top: 2px solid #ffffff;
+    }
+
+    #intro {
+        width: 100%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-transform:  uppercase;
+        color: #ffffff;
+        margin-top: 4%;
+    }
+
+    @media screen and (max-width: 640px) {
+        #intro {
+            font-size: 10pt;
+            margin-top: 10%;
+        }
+    }
+
+    #box-container4 {
+        height: 400px;
+        display: flex;
+    }
+
+    #box-4 {
+        width: 33%;
+        height: 100%;
+        background-color: #464747;
+        border-top: 2px solid #ffffff;
+        border-right: 2px solid #ffffff;
+    }
+    
+    #hardware-info {
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+    }
+
+    #hardware-content {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        color: #ffffff;
+        padding: 3px;
+    }
+
+    #pc-image {
+        width: 60%;
+        height: 70%;
+        min-width: 150px;
+        display: block;
+        margin: 15px auto auto auto;
+        border-radius: 5px;
+    }
+
+    #box-5 {
+        width: 34%;
+        height: 100%;
+        background-color: #464747;
+        border-top: 2px solid #ffffff;
+        border-right: 2px solid #ffffff;
+    }
+
+    #web-info {
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+    }
+
+    #web-content {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        color: #ffffff;
+        padding: 3px;
+    }
+
+    #web-image {
+        width: 60%;
+        height: 70%;
+        min-width: 150px;
+        display: block;
+        margin: 15px auto auto auto;
+        border-radius: 5px;
+    }
+
+    #box-6 {
+        width: 33%;
+        height: 100%;
+        background-color: #464747;
+        border-top: 2px solid #ffffff;
+    }
+
+    #instructor-info {
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+    }
+
+    #instructor-content {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        color: #ffffff;
+        padding: 3px;
+    }
+
+    #instructor-image {
+        width: 60%;
+        height: 70%;
+        min-width: 150px;
+        display: block;
+        margin: 15px auto auto auto;
+        border-radius: 5px;
+    }
+
+    @media screen and (max-width: 640px) {
+        #hardware-content, #web-content, #instructor-content {
+            font-size: 10pt;
+        }
+    }
+
+    #box-container5 {
+        height: 110px;
+        display: flex;       
+    }
+
+    #box-7 {
+        width: 100%;
+        height: 100%;
+        background-color: #1d553b;
+        text-align: center;
+        border-top: 2px solid #ffffff;
+    }
+
+    .footer {
+        color: #fff;
+    }
+
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+    }
+
+    .fa:hover {
+        transform: scale(1.1);
+    }
+
+    .fa-youtube {
+        background: #1d553b;
+        color: white;   
+    }
+
+    .fa-twitter {
+        background: #1d553b;
+        color: white;
+    }
+
+    .fa-linkedin {
+        background: #1d553b;
+        color: white;
+    }
+
+    .fa-instagram {
+        background: #1d553b;
+        color: white;
+}
+    </style>
+    </head>
+    <body>
+        <div id="box-container1">
+            <div id="box-1">
+                <div>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="hardware2019.html">Computer Hardware</a></li>
+                        <li><a href="web2019.html">Web Design</a></li>
+                        <li><a href="blog2019.html">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="box-container2">
+                <div id="box-2">
+                    <div id="title">
+                        <h1>Jason Rose | Web Design and Code</h1>
+                        <h4>HTML and CSS - JavaScript - Templates - Resources</h4>
+                    </div>
+                </div>
+        </div>
+        <div id="box-container3">
+                <div id="box-3">
+                    <article id="intro">
+                    <h4>I am fairly new to web design with 4 years of experience in HTML, CSS and JavaScript.</h4>
+                    <p><em>“The best way to predict the future is to create it.” –Abraham Lincoln</em></p>
+                    </article>
+                </div>
+        </div>
+        <div id="box-container4">
+                <div id="box-4">
+                    <div id="hardware-info">
+                    <article id="hardware-content">
+                        <a href="https://github.com/jasonrose1015/Homepage-Template/blob/master/Homepage-Template"><img src="images/homepage.png" id="pc-image" alt="hardware-info"></a>
+                        <h3>Homepage Templates</h3>
+                        <a href="https://github.com/jasonrose1015/Liquid-Layout-Template/blob/master/Liquid%20Layout%20Template"><img src="images/homepage2.png" id="pc-image" alt="hardware-info"></a>
+                        Click images for code.
+                        <p></p>
+                    </article>
+                    </div>
+                </div>
+                <div id="box-5">
+                    <div id="web-info">
+                    <article id="web-content">
+                        <a href="https://github.com/jasonrose1015/Aside-Layout-Template/blob/master/Aside-Layout-Template"><img src="images/aside.png" id="web-image" alt="web-info"></a>
+                        <h3>Product Landing Page Template</h3>
+                        <p>Using Jon Duckett's <a href="http://www.htmlandcssbook.com">HTML and CSS book</a>, I learned everything from the basics to advanced techniques in HTML and CSS. I then moved to CSS Grid and Flexbox. I highly suggest picking up a copy of this book if you are trying to get into web development.</p>
+                    </article>
+                </div>
+                </div>
+                <div id="box-6">
+                    <div id="instructor-info">
+                    <article id="instructor-content">
+                        <a href="http://javascriptbook.com"><img src="images/javascript.png" id="instructor-image" alt="instructor-info"></a>
+                        <h3>JavaScript and jQuery Book</h3>
+                        <p>I am currently working with Jon Duckett's latest book, <a href="http://javascriptbook.com">JavaScript and jQuery.</a> I have not implemented any JavaScript into my website yet, but as I learn more about it, I will. So far, the book is great.</p>
+                    </article>
+                    </div>
+                </div>
+        </div>
+        <div id="box-container5">
+            <div id="box-7">
+                <div class="footer">
+                    <a href="https://www.instagram.com/jasonrosetech/" class="fa fa-instagram"></a>
+                    <a href="https://twitter.com/jasonrosetech" class="fa fa-twitter"></a>
+                    <a href="https://www.linkedin.com/in/jason-rose-6229454a/" class="fa fa-linkedin"></a>
+                    <a href="https://www.youtube.com/channel/UCESQ_OYtx3yeCNnKNipXDAg?view_as=subscriber" class="fa fa-youtube"></a>
+                    <br>&copy; Copyright 2019 | Jason Rose | All Rights Reserved
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
