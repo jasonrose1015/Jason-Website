@@ -33,6 +33,12 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
+    @media screen and (max-width: 640px) {
+        ul {
+            font-size: 10pt;
+        }
+    }
+
     li {
         float: left;
     }
@@ -41,8 +47,14 @@
         display: block;
         color: white;
         text-align: center;
-        padding: 14px 16px;
+        padding: 16px 16px;
         text-decoration: none;
+    }
+
+    @media screen and (max-width: 640px) {
+        li a {
+            padding: 16px 10px;
+        }
     }
 
     li a:hover {
@@ -243,9 +255,9 @@
     }
 
     .fa {
-        padding: 20px;
+        padding: 15px;
         font-size: 30px;
-        width: 50px;
+        width: 40px;
         text-align: center;
         text-decoration: none;
         margin: 5px 2px;
