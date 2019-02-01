@@ -32,7 +32,7 @@
         background-color: #a01c1c;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
-        
+
     @media screen and (max-width: 640px) {
         ul {
             font-size: 10pt;
@@ -50,7 +50,7 @@
         padding: 16px 16px;
         text-decoration: none;
     }
-        
+
     @media screen and (max-width: 640px) {
         li a {
             padding: 16px 10px;
@@ -109,6 +109,7 @@
         padding: 5px;
         background-color: #a01c1c;
         border-top: 2px solid #ffffff;
+        border-bottom: 2px solid #ffffff;
     }
 
     #intro {
@@ -122,23 +123,30 @@
     @media screen and (max-width: 640px) {
         #intro {
             font-size: 10pt;
-            margin-top: 10%;
+            margin-top: 12%;
         }
     }
 
     #box-container4 {
-        height: 400px;
-        display: flex;
+        height: 370px;
+    }
+
+    @media screen and (max-width: 640px) {
+        #box-container4 {
+            height: 320px;
+        }
     }
 
     #box-4 {
-        width: 33%;
+        width: 32.5%;
         height: 100%;
-        background-image: linear-gradient(to right, #868686 , #464747);
-        border-top: 2px solid #ffffff;
+        background-color: #464747;
+        border-bottom: 2px solid #ffffff;
         border-right: 2px solid #ffffff;
+        float: left;
+        margin-left: .5%;
     }
-    
+
     #hardware-info {
         width: 100%;
         height: 100%;
@@ -149,24 +157,24 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-align: center;
         color: #ffffff;
-        padding: 3px;
+        padding: 15px 10px auto 10px;
     }
 
     #pc-image {
-        width: 60%;
-        height: 70%;
+        width: 55%;
+        height: 75%;
         min-width: 150px;
-        display: block;
         margin: 15px auto auto auto;
         border-radius: 5px;
     }
 
     #box-5 {
-        width: 34%;
+        width: 33.5%;
         height: 100%;
-        background-image: linear-gradient(to right, #868686 , #464747);
-        border-top: 2px solid #ffffff;
+        background-color: #464747;
+        border-bottom: 2px solid #ffffff;
         border-right: 2px solid #ffffff;
+        float: left;
     }
 
     #web-info {
@@ -183,19 +191,26 @@
     }
 
     #web-image {
-        width: 60%;
+        width: 50%;
         height: 70%;
         min-width: 150px;
-        display: block;
         margin: 15px auto auto auto;
         border-radius: 5px;
     }
 
     #box-6 {
-        width: 33%;
+        width: 32.5%;
         height: 100%;
-        background-image: linear-gradient(to right, #868686 , #464747);
-        border-top: 2px solid #ffffff;
+        background-color: #464747;
+        border-bottom: 2px solid #ffffff;
+        float: left;
+    }
+
+    @media screen and (max-width: 640px) {
+        #box-4, #box-5, #box-6, #box-7 {
+            width: 100%;
+            border-right: transparent;
+        }
     }
 
     #instructor-info {
@@ -205,18 +220,17 @@
     }
 
     #instructor-content {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;;
         color: #ffffff;
+        text-align: center;
         padding: 3px;
     }
 
     #instructor-image {
-        width: 60%;
+        width: 50%;
         height: 70%;
         min-width: 150px;
-        display: block;
-        margin: 15px auto auto auto;
+        margin: 25px 5px auto 5px;
         border-radius: 5px;
     }
 
@@ -226,9 +240,8 @@
         }
     }
 
-    #box-container5 {
-        height: 110px;
-        display: flex;       
+    #box-container7 {
+        height: 125px;
     }
 
     #box-7 {
@@ -236,7 +249,7 @@
         height: 100%;
         background-color: #a01c1c;
         text-align: center;
-        border-top: 2px solid #ffffff;
+        clear: both;
     }
 
     .footer {
@@ -244,12 +257,22 @@
     }
 
     .fa {
-        padding: 15px;
+        padding: 20px;
         font-size: 30px;
-        width: 40px;
+        width: 50px;
         text-align: center;
         text-decoration: none;
         margin: 5px 2px;
+    }
+
+    @media screen and (max-width: 640px) {
+        .fa {
+        padding: 15px;
+        font-size: 20px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        }
     }
 
     .fa:hover {
@@ -280,14 +303,12 @@
     <body>
         <div id="box-container1">
             <div id="box-1">
-                <div>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="hardware2019.html">Computer Hardware</a></li>
-                        <li><a href="web2019.html">Web Design</a></li>
-                        <li><a href="blog2019.html">Blog</a></li>
-                    </ul>
-                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="hardware2019.html">Computer Hardware</a></li>
+                    <li><a href="web2019.html">Web Design</a></li>
+                    <li><a href="blog2019.html">Blog</a></li>
+                </ul>
             </div>
         </div>
         <div id="box-container2">
@@ -306,6 +327,7 @@
                     </article>
                 </div>
         </div>
+        <br>
         <div id="box-container4">
                 <div id="box-4">
                     <div id="hardware-info">
@@ -324,7 +346,7 @@
                         <h3>Web Design and Coding</h3>
                         <p>Entry level web developer with skills in HTML, CSS and JavaScript. From static to liquid layouts and CSS Grid, all of my templates are available on GitHub.</p>
                     </article>
-                </div>
+                    </div>
                 </div>
                 <div id="box-6">
                     <div id="instructor-info">
@@ -336,7 +358,7 @@
                     </div>
                 </div>
         </div>
-        <div id="box-container5">
+        <div id="box-container7">
             <div id="box-7">
                 <div class="footer">
                     <a href="https://www.instagram.com/jasonrosetech/" class="fa fa-instagram"></a>
